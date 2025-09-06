@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/todo")
+@RequestMapping(value = "/to-do")
 public class TodoController {
     @Autowired
     private TodoRepo todoRepo;
